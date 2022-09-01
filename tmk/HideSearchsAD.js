@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HideSearchAD
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/mrzhxping/had
 // @version      0.1
 // @description  hide Bing AD！
 // @author       You
