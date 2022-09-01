@@ -1,0 +1,2 @@
+# had
+Hide Searchs AD!
