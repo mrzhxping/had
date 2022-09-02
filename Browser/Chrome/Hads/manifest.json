@@ -1,0 +1,37 @@
+{
+  //  名称
+  "name": "Hads",
+  //  描述
+  "description": "屏蔽百度、必应、Google搜索结果页面上的广告",
+  //  版本号
+  "version": "1.0.1",
+  // 插件版本 已经不支持3以下的版本了
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      // 执行的域名地址 必须
+      "matches": [
+        "*://*.bing.com/*",
+        "*://*.baidu.com/*",
+        "*://*.google.com/*"
+      ],
+      // 关联的样式文件 也可引入多个
+      // "css": []
+
+      // 按照书写顺序依次注入
+      "js": [
+        "content.js"
+      ],
+      // 运行时机 document_idle: 默认 DOMContentLoaded之后，onload之前； document_start：DOMContentLoaded之前 document_end：DOMContentLoaded之后，onload之前
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    // 地址栏后面展示的图标
+    "default_icon": "had_16.png"
+  },
+  "icons": {
+    // 安装的插件图标
+    "48": "had_48.png"
+  }
+}
