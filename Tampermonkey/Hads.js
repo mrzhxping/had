@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         HideSearchAD
+// @name         Hads
 // @namespace    https://github.com/mrzhxping/had
 // @version      0.1
-// @description  hide Bing AD！
+// @description  屏蔽百度、必应、Google搜索结果页面上的广告
 // @author       You
 // @match        *://*.bing.com/*
 // @icon         https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico
